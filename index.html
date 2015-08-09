@@ -2,6 +2,7 @@
 <head>
 	<title>IPB4.x CSS Framework Guide</title>
 	<link href='./ipb4-framework.css' type='text/css' rel='stylesheet'/>
+	<link href='./css/font-awesome.min.css' type='text/css' rel='stylesheet'/>
 	<link href='./css/main.css' type='text/css' rel='stylesheet'/>
 </head>
 <body class='ipsApp'>
@@ -27,6 +28,18 @@
 				<li data-role='navItem'>
 					<a id="elNavigation_app_cms_55c6f03e62b96" href='#buttons' class='elNavigation_app_cms_1' >
 						Buttons
+					</a>	
+				</li>
+				
+				<li data-role='navItem'>
+					<a id="elNavigation_app_cms_55c6f03e62b96" href='#breadcrumb' class='elNavigation_app_cms_1' >
+						Breadcrumb
+					</a>	
+				</li>
+				
+				<li data-role='navItem'>
+					<a id="elNavigation_app_cms_55c6f03e62b96" href='#widgets' class='elNavigation_app_cms_1' >
+						Widgets
 					</a>	
 				</li>
 
@@ -154,14 +167,14 @@
 &lt;div class=&apos;ipsSpacer_top ipsSpacer_half&apos;&gt;&lt;/div&gt;
 &lt;button type=&apos;button&apos; class=&apos;ipsButton ipsButton_fullWidth&apos;&gt;fullWidth&lt;/button&gt;</pre>
 
-		<h3>Button Groups</h3>
-		<ul class='ipsButton_split'>
-			<li><button type='button' class='ipsButton'>Button</button></li>
-			<li><button type='button' class='ipsButton ipsButton_positive'>Button</button></li>
-			<li><button type='button' class='ipsButton ipsButton_intermediate'>Button</button></li>
-			<li><button type='button' class='ipsButton ipsButton_overlaid'>Button</button></li>
-			<li><button type='button' class='ipsButton ipsButton_negative'>Button</button></li>
-		</ul>
+			<h3>Button Groups</h3>
+			<ul class='ipsButton_split'>
+				<li><button type='button' class='ipsButton'>Button</button></li>
+				<li><button type='button' class='ipsButton ipsButton_positive'>Button</button></li>
+				<li><button type='button' class='ipsButton ipsButton_intermediate'>Button</button></li>
+				<li><button type='button' class='ipsButton ipsButton_overlaid'>Button</button></li>
+				<li><button type='button' class='ipsButton ipsButton_negative'>Button</button></li>
+			</ul>
 		
 <pre class='code-pre'><strong>Code Example</strong>
 &lt;ul class=&apos;ipsButton_split&apos;&gt;
@@ -171,6 +184,60 @@
 &#x9;&lt;li&gt;&lt;button type=&apos;button&apos; class=&apos;ipsButton ipsButton_overlaid&apos;&gt;Button&lt;/button&gt;&lt;/li&gt;
 &#x9;&lt;li&gt;&lt;button type=&apos;button&apos; class=&apos;ipsButton ipsButton_negative&apos;&gt;Button&lt;/button&gt;&lt;/li&gt;
 &lt;/ul&gt;</pre>
+		
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+
+			<h2 id='breadcrumb'>Breadcrumb</h2>
+			<div class="ipsSubNavigation">					
+				<nav class="ipsBreadcrumb">
+					<ul>
+						<li><a href='javascript:;'><span><i class="fa fa-home"></i> Home <i class="fa fa-angle-right"></i></span></a></li>
+						<li><a href='javascript:;'><span>Shopping Cart <i class="fa fa-angle-right"></i></span></a></li>
+						<li><span>Checkout</span></li>
+					</ul>
+				</nav>
+			</div>
+			
+<pre class='code-pre'><strong>Code Example</strong>
+&lt;div class=&quot;ipsSubNavigation&quot;&gt;&#x9;&#x9;&#x9;&#x9;&#x9;
+&#x9;&lt;nav class=&quot;ipsBreadcrumb&quot;&gt;
+&#x9;&#x9;&lt;ul&gt;
+&#x9;&#x9;&#x9;&lt;li&gt;&lt;a href=&apos;javascript:;&apos;&gt;&lt;span&gt;&lt;i class=&quot;fa fa-home&quot;&gt;&lt;/i&gt; Home &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&#x9;&#x9;&#x9;&lt;li&gt;&lt;a href=&apos;javascript:;&apos;&gt;&lt;span&gt;Shopping Cart &lt;i class=&quot;fa fa-angle-right&quot;&gt;&lt;/i&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+&#x9;&#x9;&#x9;&lt;li&gt;&lt;span&gt;Checkout&lt;/span&gt;&lt;/li&gt;
+&#x9;&#x9;&lt;/ul&gt;
+&#x9;&lt;/nav&gt;
+&lt;/div&gt;</pre>
+			
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p>
+
+			<h2 id='widgets'>Widgets</h2>
+			<h3>Horizontal Widget</h3>
+			<div class='ipsWidget ipsWidget_horizontal ipsBox'>
+				<h3 class='ipsType_reset ipsWidget_title'>Widget Header</h3>
+				<div class='ipsWidget_inner ipsPad'>Lorem ipsum</div>
+			</div>
+
+			<h3>Vertical Widget</h3>
+			<div class='ipsWidget ipsWidget_vertical ipsBox'>
+				<h3 class='ipsType_reset ipsWidget_title'>Widget Header</h3>
+				<div class='ipsWidget_inner ipsPad'>Lorem ipsum</div>
+			</div>
+			
+<pre class='code-pre'><strong>Code Example</strong>
+&lt;div class=&apos;ipsWidget ipsWidget_horizontal ipsBox&apos;&gt;
+&#x9;&lt;h3 class=&apos;ipsType_reset ipsWidget_title&apos;&gt;Widget Header&lt;/h3&gt;
+&#x9;&lt;div class=&apos;ipsWidget_inner ipsPad&apos;&gt;Lorem ipsum&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&apos;ipsWidget ipsWidget_vertical ipsBox&apos;&gt;
+&#x9;&lt;h3 class=&apos;ipsType_reset ipsWidget_title&apos;&gt;Widget Header&lt;/h3&gt;
+&#x9;&lt;div class=&apos;ipsWidget_inner ipsPad&apos;&gt;Lorem ipsum&lt;/div&gt;
+&lt;/div&gt;</pre>
 
 		</div>
 	</div>
