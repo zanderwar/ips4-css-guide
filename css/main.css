@@ -18,7 +18,7 @@ header {
 	margin-bottom: 80px;
 }
 .ipsGrid.grid-example div {
-    background-color: #eee;
+    background-color: #AFAEAE;
     padding: 10px;
     text-align: center;
     margin-bottom: 10px;
@@ -26,17 +26,19 @@ header {
 pre.code-pre {
     border: 1px solid #ccc;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
 	margin-bottom: 15px;
+    background-color: white;
 }
 
-pre.code-pre > strong {
+.code-header {
     background-color: black;
     display: block;
     color: white;
     padding: 10px;
     border-radius: 5px 5px 0 0;
-    margin: -10px -10px 0;
+    margin-bottom: -13px;
+	margin-top: 15px;
 }
 div#social {
     text-align: center;
