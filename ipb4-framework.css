@@ -710,8 +710,7 @@
      background: #cbb641;
  }
  .ipsItemStatus:not(.ipsItemStatus_large) {
-     color: #950000;
-     text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+     color: #303d46;
      font-size: 14px;
      line-height: inherit;
      vertical-align: middle;
@@ -720,7 +719,7 @@
      vertical-align: text-top;
  }
  .ipsItemStatus.ipsItemStatus_read:not(.ipsItemStatus_large) {
-     color: #a9a9a9;
+     color: #dbdbdb;
  }
  .ipsItemStatus.ipsItemStatus_tiny {
      font-size: 9px;
@@ -729,15 +728,7 @@
      font-size: 13px;
  }
  .ipsItemStatus.ipsItemStatus_large {
-     background: #950000;
-     background: -moz-linear-gradient(top, #BC0000 0%, #740000 100%);
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BC0000), color-stop(100%, #740000));
-     background: linear-gradient(top, #BC0000 0%, #740000 100%);
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 3px rgba(0, 0, 0, 0.3);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 3px rgba(0, 0, 0, 0.3);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 3px rgba(0, 0, 0, 0.3);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+     background: #303d46;
      color: #fff;
      width: 36px;
      height: 36px;
@@ -753,15 +744,7 @@
      transition: 0.15s all linear;
  }
  .ipsItemStatus.ipsItemStatus_large.ipsItemStatus_read {
-     background: #656565;
-     background: -moz-linear-gradient(top, #858585 0%, #454545 100%);
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #858585), color-stop(100%, #454545));
-     background: linear-gradient(top, #858585 0%, #454545 100%);
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.3);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.3);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.3);
-     border: 1px solid rgba(0, 0, 0, 0.5);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+     background: #dbdbdb;
      border-radius: 2px 15px 2px 15px;
  }
  .ipsItemStatus.ipsItemStatus_read {
@@ -941,120 +924,32 @@
      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
  }
  .ipsApp .ipsButton_normal {
-     background: #950000 !important;
-     background: -moz-linear-gradient(top, #BC0000 0%, #740000 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BC0000), color-stop(100%, #740000)) !important;
-     background: linear-gradient(top, #BC0000 0%, #740000 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff;
- }
- .ipsApp .ipsButton_normal:hover {
-     background: #750000 !important;
-     background: -moz-linear-gradient(top, #740000 0%, #BC0000 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #740000), color-stop(100%, #BC0000)) !important;
-     background: linear-gradient(top, #740000 0%, #BC0000 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff;
+     background: #417ba3;
+     color: #ffffff;
  }
  .ipsApp .ipsButton_primary {
-     background: #950000 !important;
-     background: -moz-linear-gradient(top, #BC0000 0%, #740000 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BC0000), color-stop(100%, #740000)) !important;
-     background: linear-gradient(top, #BC0000 0%, #740000 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff !important;
- }
- .ipsApp .ipsButton_primary:hover {
-     background: #750000 !important;
-     background: -moz-linear-gradient(top, #740000 0%, #BC0000 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #740000), color-stop(100%, #BC0000)) !important;
-     background: linear-gradient(top, #740000 0%, #BC0000 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff !important;
+     background: #262e33;
+     color: #ffffff;
  }
  .ipsApp .ipsButton_alternate {
-     background: #959595 !important;
-     background: -moz-linear-gradient(top, #B5B5B5 0%, #757575 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #B5B5B5), color-stop(100%, #757575)) !important;
-     background: linear-gradient(top, #B5B5B5 0%, #757575 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff !important;
- }
- .ipsApp .ipsButton_alternate:hover {
-     background: #757575 !important;
-     background: -moz-linear-gradient(top, #757575 0%, #B5B5B5 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #757575), color-stop(100%, #B5B5B5)) !important;
-     background: linear-gradient(top, #757575 0%, #B5B5B5 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 255, 255, 0.1), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff !important;
+     background: #2d4760;
+     color: #ffffff;
  }
  .ipsApp .ipsButton_important {
-     background: #950000 !important;
-     background: -moz-linear-gradient(top, #BC0000 0%, #740000 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #BC0000), color-stop(100%, #740000)) !important;
-     background: linear-gradient(top, #BC0000 0%, #740000 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 2px 3px rgba(0, 0, 0, 0.4);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff !important;
- }
- .ipsApp .ipsButton_important:hover {
-     background: #750000 !important;
-     background: -moz-linear-gradient(top, #740000 0%, #BC0000 100%) !important;
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #740000), color-stop(100%, #BC0000)) !important;
-     background: linear-gradient(top, #740000 0%, #BC0000 100%) !important;
-     -moz-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     -webkit-box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     box-shadow: inset 1px 1px 0 0 rgba(255, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.3);
-     border: 1px solid rgba(0, 0, 0, 0.4);
-     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-     font-size: 16px !important;
-     color: #fff !important;
+     background: #558e7c;
+     color: #ffffff;
  }
  .ipsApp .ipsButton_positive {
      background: #5f7a47;
-     color: #fff !important;
+     color: #fff;
  }
  .ipsApp .ipsButton_intermediate {
      background: #d67814;
-     color: #fff !important;
+     color: #fff;
  }
  .ipsApp .ipsButton_negative {
      background: #a72f35;
-     color: #fff !important;
+     color: #fff;
  }
  .ipsApp .ipsButton_light {
      background: #e5e5e5;
@@ -1068,7 +963,8 @@
      background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.3) 100%);
  }
- .ipsApp .ipsButton:active {
+ .ipsApp .ipsButton:active,
+ .ipsApp .ipsButton_active {
      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1) inset;
      border: 1px solid rgba(0, 0, 0, 0.1);
      background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.02) 100%);
@@ -1085,7 +981,7 @@
  .ipsApp .ipsButton_overlaid {
      background: rgba(0, 0, 0, 0.5);
      opacity: 0.6;
-     color: #fff !important;
+     color: #fff;
  }
  .ipsApp .ipsButton_overlaid:hover {
      background: #000;
@@ -1097,7 +993,7 @@
  .ipsApp .ipsButton_link {
      background: transparent;
      color: inherit;
-     border: 1px solid transparent;
+     border: 0;
      font-weight: normal;
  }
  .ipsApp .ipsButton_link:active {
@@ -1986,7 +1882,10 @@
  .ipsDataList_readStatus .ipsDataItem:not(.ipsDataItem_unread):not(.ipsDataItem_selected):not(.ipsModerated) {
      background: #f9f9f9;
  }
- .ipsDataList.ipsDataList_zebra .ipsDataItem:not(.ipsDataItem_selected):not(.ipsModerated):nth-child(even) {}.ipsDataList {
+ .ipsDataList.ipsDataList_zebra .ipsDataItem:not(.ipsDataItem_selected):not(.ipsModerated):nth-child(even) {
+     background: #fafafa;
+ }
+ .ipsDataList {
      width: 100%;
      display: table;
      table-layout: auto;
@@ -2003,10 +1902,13 @@
  .ipsDataItem_title {
      font-size: 14px;
      margin: 0 0 5px 0;
+     font-weight: 400;
      display: inline-block;
-     font-weight: normal !important;
  }
- .ipsDataItem_unread .ipsDataItem_title {}.ipsDataItem_main,
+ .ipsDataItem_unread .ipsDataItem_title {
+     font-weight: bold;
+ }
+ .ipsDataItem_main,
  .ipsDataItem_stats,
  .ipsDataItem_lastPoster,
  .ipsDataItem_generic,
@@ -2057,19 +1959,14 @@
      vertical-align: top !important;
  }
  .ipsDataItem {
-     background: #f9f9f9;
-     background: -moz-linear-gradient(top, #fff 0%, #eee 100%);
-     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #eee));
-     background: linear-gradient(top, #fff 0%, #eee 100%);
-     -webkit-box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);
-     -moz-box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);
-     box-shadow: inset 1px 1px 0px 0px rgba(255, 255, 255, 0.8);
-     border-bottom: 1px solid #ddd;
      width: 100%;
      position: relative;
+     border-width: 0 0 1px 0;
+     border-style: solid;
+     border-color: #f5f5f5;
  }
  .ipsDataList:not(.ipsGrid) .ipsDataItem:last-child {
-     border-bottom: ;
+     border-bottom: 0;
  }
  .ipsDataItem_modCheck input[type="checkbox"] {
      opacity: 0;
@@ -2106,12 +2003,14 @@
  }
  .ipsDataItem_statsLarge .ipsDataItem_stats_number {
      font-size: 22px;
+     font-weight: 300;
      line-height: 1.3;
  }
  .ipsDataItem_stats_hot {
      background: #da621a;
      color: #fff;
      font-size: 12px;
+     font-weight: bold;
      display: inline-block;
      padding: 0 5px 0 5px;
      position: relative;
@@ -2124,6 +2023,7 @@
      font-size: 9px;
      color: #fff;
      opacity: 0.6;
+     font-weight: bold;
  }
  html[dir="ltr"] .ipsDataItem_stats_hot:before {
      margin-right: 5px;
@@ -2231,18 +2131,21 @@
  }
  html[dir="ltr"] .ipsDataItem_subList {
      padding-left: 20px !important;
-     background-image: url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem.png );
+     background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem.png );
      background-position: 3px 5px;
  }
  html[dir="rtl"] .ipsDataItem_subList {
      padding-right: 20px !important;
-     background-image: url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl.png );
+     background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl.png );
      background-position: right 3px top 5px;
  }
  .ipsDataItem_subList li {
      margin-right: 5px !important;
  }
- .ipsDataItem_subList li.ipsDataItem_unread {}.ipsDataItem_subList li a:after {
+ .ipsDataItem_subList li.ipsDataItem_unread {
+     font-weight: bold;
+ }
+ .ipsDataItem_subList li a:after {
      content: ',';
  }
  .ipsDataItem_subList li:last-child a:after {
@@ -2528,10 +2431,10 @@
      content: '\f111';
      font-family: 'FontAwesome';
  }
- @font-face{font-family:'icomoon';src:url('//pigspot.com.au/community/applications/core/interface/font/icomoon.eot?-29n77j');src:url('//pigspot.com.au/community/applications/core/interface/font/icomoon.eot?#iefix-29n77j') format('embedded-opentype'),
- url('//pigspot.com.au/community/applications/core/interface/font/icomoon.woff?-29n77j') format('woff'),
- url('//pigspot.com.au/community/applications/core/interface/font/icomoon.ttf?-29n77j') format('truetype'),
- url('//pigspot.com.au/community/applications/core/interface/font/icomoon.svg?-29n77j#icomoon') format('svg');
+ @font-face{font-family:'icomoon';src:url('//community.invisionpower.com/applications/core/interface/font/icomoon.eot?-29n77j');src:url('//community.invisionpower.com/applications/core/interface/font/icomoon.eot?#iefix-29n77j') format('embedded-opentype'),
+ url('//community.invisionpower.com/applications/core/interface/font/icomoon.woff?-29n77j') format('woff'),
+ url('//community.invisionpower.com/applications/core/interface/font/icomoon.ttf?-29n77j') format('truetype'),
+ url('//community.invisionpower.com/applications/core/interface/font/icomoon.svg?-29n77j#icomoon') format('svg');
  font-weight:normal;
  font-style:normal;
 }
@@ -2562,11 +2465,11 @@
 .icon-spinner9:before {
     content: "\e982";
 }
-@font-face{font-family:'FontAwesome';src:url('//pigspot.com.au/community/applications/core/interface/font/fontawesome-webfont.eot?v=4.3.0');src:url('//pigspot.com.au/community/applications/core/interface/font/fontawesome-webfont.eot?#iefix&amp;v=4.3.0') format('embedded-opentype'),
-url('//pigspot.com.au/community/applications/core/interface/font/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
-url('//pigspot.com.au/community/applications/core/interface/font/fontawesome-webfont.woff?v=4.3.0') format('woff'),
-url('//pigspot.com.au/community/applications/core/interface/font/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
-url('//pigspot.com.au/community/applications/core/interface/font/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+@font-face{font-family:'FontAwesome';src:url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.eot?v=4.3.0');src:url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.eot?#iefix&amp;v=4.3.0') format('embedded-opentype'),
+url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
+url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 font-weight:normal;
 font-style:normal;
 
@@ -4382,7 +4285,7 @@ font-style:normal;
     -webkit-appearance:button;
     height:33px;
     line-height:1;
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -moz-linear-gradient(top,
     rgba(255,
     255,
@@ -4392,7 +4295,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -webkit-gradient(linear,
     left top,
     left bottom,
@@ -4406,7 +4309,7 @@ font-style:normal;
     242,
     242,
     1)));
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -webkit-linear-gradient(top,
     rgba(255,
     255,
@@ -4416,7 +4319,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -o-linear-gradient(top,
     rgba(255,
     255,
@@ -4426,7 +4329,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -ms-linear-gradient(top,
     rgba(255,
     255,
@@ -4436,7 +4339,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     linear-gradient(to bottom,
     rgba(255,
     255,
@@ -4458,7 +4361,7 @@ font-style:normal;
     text-overflow:'';
 }
 html[dir="rtl"] .ipsApp select:not([multiple]) {
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -moz-linear-gradient(top,
     rgba(255,
     255,
@@ -4468,7 +4371,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -webkit-gradient(linear,
     left top,
     left bottom,
@@ -4482,7 +4385,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1)));
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -webkit-linear-gradient(top,
     rgba(255,
     255,
@@ -4492,7 +4395,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -o-linear-gradient(top,
     rgba(255,
     255,
@@ -4502,7 +4405,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -ms-linear-gradient(top,
     rgba(255,
     255,
@@ -4512,7 +4415,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     linear-gradient(to bottom,
     rgba(255,
     255,
@@ -5085,7 +4988,7 @@ html[dir="rtl"] .ipsFieldRow.ipsFieldRow_primary .ipsFieldRow_icon:after {
     right:10px;
 }
 .ipsApp .ipsField_loading {
-    background-image:url(/community/uploads/set_resources_2/cf5a1e7fc191338071d07df134b620d0_tiny_loading.gif );
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/cf5a1e7fc191338071d07df134b620d0_tiny_loading.gif );
     background-size:14px 14px;
     background-repeat:no-repeat;
     background-position:right 5px center;
@@ -5093,7 +4996,7 @@ html[dir="rtl"] .ipsFieldRow.ipsFieldRow_primary .ipsFieldRow_icon:after {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .ipsApp .ipsField_loading {
-        background-image:url(/community/uploads/set_resources_2/55c53cfd160a8_cf5a1e7fc191338071d07df134b620d0_tiny_loading2x.gif );
+        background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fa25712_cf5a1e7fc191338071d07df134b620d0_tiny_loading2x.gif );
     }
 }
 html[dir="rtl"] .ipsApp .ipsField_loading {
@@ -5956,13 +5859,15 @@ html {
     position:relative;
 }
 body {
-    background:#fff;
-    font-family:Arial,
+    font-family:"Helvetica Neue",
+    Helvetica,
+    Arial,
     sans-serif;
     font-size:13px;
     line-height:18px;
-    color:#000;
+    color:#525252;
     height:100%;
+    background-color:#e9e9e9;
 }
 main {
     display:block;
@@ -5974,11 +5879,11 @@ body.ipsNoScroll {
     overflow:hidden;
 }
 a {
-    color:#900000;
+    color:#255b79;
     text-decoration:none;
 }
 a:hover {
-    color:#000;
+    color:#cd3816;
 }
 a:active,
 a:focus,
@@ -6009,12 +5914,15 @@ html[dir="rtl"] i.fa[class$="-backward"] {
     font-size:28px;
     line-height:58px;
     text-decoration:none;
+    font-weight:300;
     -webkit-font-smoothing:antialiased;
+}
+#elLogo img {
+    max-width:100%;
 }
 #elSearchNavContainer,
 #elMobileNav {
-    background:#222;
-    border:none !important;
+    background:#283a4a;
 }
 #ipsLayout_mainNav {
     margin:0;
@@ -6059,6 +5967,7 @@ html[dir="rtl"] #ipsLayout_mainNav > li > a .ipsNotificationCount {
     0,
     0,
     0.3);
+    font-weight:bold;
     opacity:1;
 }
 #ipsLayout_header nav a.ipsNavActive.ipsNavActive_menu {
@@ -6068,28 +5977,16 @@ html[dir="rtl"] #ipsLayout_mainNav > li > a .ipsNotificationCount {
     0.5);
 }
 #ipsLayout_header header {
-    background:url() repeat-x center;
-    height:442px;
+    padding:10px 0 125px 0;
+    margin-bottom:-115px;
+    background-color:#3d5e78;
 }
 #ipsLayout_mainNav > li > a {
-    opacity:0.8;
+    opacity:0.6;
 }
 #ipsLayout_mainNav > li > a:hover {
-    background:rgba(255,
-    255,
-    255,
-    0.2);
     opacity:1;
-    color:#000;
-    text-shadow:0px 0px 1px rgba(0,
-    0,
-    0,
-    0.2);
-    -webkit-transition:0.3s all ease-in-out;
-    -moz-transition:0.3s all ease-in-out;
-    -ms-transition:0.3s all ease-in-out;
-    -o-transition:0.3s all ease-in-out;
-    transition:0.3s all ease-in-out;
+    color:#fff;
 }
 #ipsLayout_mobileNav {
     display:none;
@@ -6126,11 +6023,7 @@ html[dir="rtl"] #elAjaxLoading img {
     255,
     0.5);
     padding:15px 15px;
-}
-#elFooterNavigation.ipsSubNavigation {
-    background:none !important;
-    border-top:none !important;
-    border-bottom:none !important;
+    background:#f5f5f5;
 }
 .ipsSubNavigation ul {
     padding:0;
@@ -6140,30 +6033,25 @@ html[dir="rtl"] #elAjaxLoading img {
     display:inline-block;
     line-height:1;
     font-size:13px;
-    color:#555 !important;
+    font-weight:400;
 }
 .ipsSubNavigation a {
-    color:#555;
-    text-decoration:none;
-}
-.ipsSubNavigation a:hover {
-    color:#000;
+    color:inherit;
     text-decoration:none;
 }
 .ipsSubNavigation li .fa {
     margin:0 3px;
-    color:#555;
 }
 .ipsBreadcrumb > ul > li:last-child {
     color:#868686;
 }
 .ipsBreadcrumb li {
     max-width:500px;
-    height:14px;
+    height:15px;
     white-space:nowrap;
     overflow:hidden;
     text-overflow:ellipsis;
-    vertical-align:middle;
+    vertical-align:bottom;
 }
 #elHeaderSubLinks a,
 .ipsBreadcrumb > ul a {
@@ -6235,15 +6123,15 @@ html[dir="rtl"] #elSearch button {
     font-size:13px;
     position:absolute;
     top:0px;
-    width:145px;
+    width:130px;
     line-height:28px;
     height:28px;
 }
 html[dir="ltr"] #elSearch input[type="search"] {
-    right:15px;
+    right:30px;
 }
 html[dir="rtl"] #elSearch input[type="search"] {
-    left:15px;
+    left:30px;
 }
 #elSearch #elSearchFilter {
     font-size:11px;
@@ -6464,6 +6352,7 @@ html[dir="rtl"] .ipsDrawer_menu {
     color:#a9a9a9;
     font-size:13px;
     padding:5px 15px;
+    font-weight:bold;
 }
 .ipsDrawer_itemParent > h4 {
     font-weight:normal;
@@ -6547,23 +6436,23 @@ html[dir="rtl"] .ipsDrawer_list[data-action="back"] a:before {
     }
     html[dir="ltr"] .ipsApp .ipsStepBar > .ipsStep > a,
     html[dir="ltr"] .ipsApp .ipsStepBar > .ipsStep > span {
-        background-image: url(/community/uploads/set_resources_2/55c53cfd17633_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large2x.png );
+        background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fa3bb65_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large2x.png );
     }
     html[dir="rtl"] .ipsApp .ipsStepBar > .ipsStep > a,
     html[dir="rtl"] .ipsApp .ipsStepBar > .ipsStep > span {
-        background-image: url(/community/uploads/set_resources_2/55c53cfd17f41_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl2x.png );
+        background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fa4b3cf_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl2x.png );
     }
     html[dir="ltr"] .ipsApp .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-        background-image: url(/community/uploads/set_resources_2/55c53cfd18832_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra2x.png );
+        background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fa7a99c_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra2x.png );
     }
     html[dir="rtl"] .ipsApp .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-        background-image: url(/community/uploads/set_resources_2/55c53cfd190fa_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl2x.png );
+        background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fa93437_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl2x.png );
     }
     html[dir="ltr"] .ipsApp .ipsDataItem_subList {
-        background-image: url(/community/uploads/set_resources_2/55c53cfd199b5_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem2x.png );
+        background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231faad847_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem2x.png );
     }
     html[dir="rtl"] .ipsApp .ipsDataItem_subList {
-        background-image: url(/community/uploads/set_resources_2/55c53cfd1a268_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl2x.png );
+        background-image: url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fabd71c_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl2x.png );
     }
 }
 .ipsRedirect {
@@ -6626,9 +6515,6 @@ html[dir="rtl"] .ipsDrawer_list[data-action="back"] a:before {
     right:15px;
     top:15px;
 }
-.white_text {
-    color:#fff !important;
-}
 #ipsLayout_body {
     z-index:1000;
     margin:0 auto;
@@ -6638,17 +6524,19 @@ html[dir="rtl"] .ipsDrawer_list[data-action="back"] a:before {
 }
 #ipsLayout_contentArea {
     display:table;
-    width:1140px;
+    width:100%;
+    border:1px solid rgba(0,
+    0,
+    0,
+    0.05);
     border-top:0;
-    margin:0 auto;
 }
 #ipsLayout_contentWrapper {
-    width:1140px;
-    margin:0 auto;
+    width:100%;
 }
 #ipsLayout_mainArea,
 #ipsLayout_sidebar {
-    background:transparent;
+    background:#fff;
     display:table-cell;
     height:100%;
     vertical-align:top;
@@ -6680,7 +6568,7 @@ body:not(.cWidgetsManaging) #ipsLayout_sidebar.ipsLayout_sidebarUnused,
 body.ipsLayout_sidebarUnused:not(.cWidgetsManaging) #ipsLayout_sidebar {
     min-width:1px;
     max-width:0;
-    padding:0;
+    padding:0 !important;
 }
 #ipsLayout_contentWrapper #ipsLayout_sidebar:first-child {
     padding:15px 15px 15px 15px;
@@ -6720,8 +6608,8 @@ body.ipsLayout_sidebarUnused:not(.cWidgetsManaging) #ipsLayout_sidebar {
     display:block;
 }
 .ipsLayout_container {
-    max-width:100%;
-    padding:0px;
+    max-width:1340px;
+    padding:0 15px;
     margin:0 auto;
     position:relative;
 }
@@ -8278,7 +8166,7 @@ html[dir="rtl"] .ipsStepBar > li {
 .ipsStepBar > .ipsStep > span {
     padding:11px 33px 11px 18px;
     background-color:#f0f0f0;
-    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large.png );
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large.png );
     background-repeat:no-repeat;
     background-position:bottom right;
     background-size:200% 200%;
@@ -8291,7 +8179,7 @@ html[dir="rtl"] .ipsStepBar > li {
 html[dir="rtl"] .ipsStepBar > .ipsStep > a,
 html[dir="rtl"] .ipsStepBar > .ipsStep > span {
     padding:11px 18px 11px 33px;
-    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl.png );
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl.png );
     background-position:bottom left;
 }
 .ipsStepBar > .ipsStep.ipsStep_active > a,
@@ -8314,11 +8202,11 @@ html[dir="rtl"] .ipsStepBar > .ipsStep.ipsStep_active > span {
     display:inline-block;
 }
 html[dir="ltr"] .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra.png );
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra.png );
     left:-23px;
 }
 html[dir="rtl"] .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl.png );
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl.png );
     right:-23px;
 }
 .ipsStep_title {
@@ -10683,7 +10571,7 @@ iframe[data-embedContent] {
     0.1);
     position:relative;
     background-color:#fcfcfc;
-    background-image:url(/community/uploads/set_resources_2/55c53cfd1d653_cf5a1e7fc191338071d07df134b620d0_large_loading2x.gif );
+    background-image:url(//d1ooya5aw7ml3h.cloudfront.net/set_resources_1/55c231fb2b0a9_cf5a1e7fc191338071d07df134b620d0_large_loading2x.gif );
     background-repeat:no-repeat;
     background-position:center center;
     background-size:40px 40px;
@@ -10768,7 +10656,7 @@ html[dir="rtl"] .ipsEmbedded_withImage .ipsEmbedded_content {
     0.3);
 }
 .ipsEmbeddedVideo.ipsEmbeddedVideo_limited {
-    max-width:none;
+    max-width:600px;
 }
 .ipsEmbeddedVideo.ipsEmbeddedVideo_limited > div,
 .ipsEmbeddedVideo:not(.ipsEmbeddedVideo_limited) {
