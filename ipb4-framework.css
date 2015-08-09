@@ -2231,12 +2231,12 @@
  }
  html[dir="ltr"] .ipsDataItem_subList {
      padding-left: 20px !important;
-     background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem.png );
+     background-image: url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem.png );
      background-position: 3px 5px;
  }
  html[dir="rtl"] .ipsDataItem_subList {
      padding-right: 20px !important;
-     background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl.png );
+     background-image: url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl.png );
      background-position: right 3px top 5px;
  }
  .ipsDataItem_subList li {
@@ -4382,7 +4382,7 @@ font-style:normal;
     -webkit-appearance:button;
     height:33px;
     line-height:1;
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -moz-linear-gradient(top,
     rgba(255,
     255,
@@ -4392,7 +4392,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -webkit-gradient(linear,
     left top,
     left bottom,
@@ -4406,7 +4406,7 @@ font-style:normal;
     242,
     242,
     1)));
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -webkit-linear-gradient(top,
     rgba(255,
     255,
@@ -4416,7 +4416,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -o-linear-gradient(top,
     rgba(255,
     255,
@@ -4426,7 +4426,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     -ms-linear-gradient(top,
     rgba(255,
     255,
@@ -4436,7 +4436,7 @@ font-style:normal;
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown.png ),
     linear-gradient(to bottom,
     rgba(255,
     255,
@@ -4458,7 +4458,7 @@ font-style:normal;
     text-overflow:'';
 }
 html[dir="rtl"] .ipsApp select:not([multiple]) {
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -moz-linear-gradient(top,
     rgba(255,
     255,
@@ -4468,7 +4468,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -webkit-gradient(linear,
     left top,
     left bottom,
@@ -4482,7 +4482,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1)));
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -webkit-linear-gradient(top,
     rgba(255,
     255,
@@ -4492,7 +4492,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -o-linear-gradient(top,
     rgba(255,
     255,
@@ -4502,7 +4502,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     -ms-linear-gradient(top,
     rgba(255,
     255,
@@ -4512,7 +4512,7 @@ html[dir="rtl"] .ipsApp select:not([multiple]) {
     242,
     242,
     1) 100%);
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
+    background-image:url(/community/uploads/set_resources_2/84c1e40ea0e759e3f1505eb1788ddf3c_select_dropdown_rtl.png ),
     linear-gradient(to bottom,
     rgba(255,
     255,
@@ -5085,7 +5085,7 @@ html[dir="rtl"] .ipsFieldRow.ipsFieldRow_primary .ipsFieldRow_icon:after {
     right:10px;
 }
 .ipsApp .ipsField_loading {
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/cf5a1e7fc191338071d07df134b620d0_tiny_loading.gif );
+    background-image:url(/community/uploads/set_resources_2/cf5a1e7fc191338071d07df134b620d0_tiny_loading.gif );
     background-size:14px 14px;
     background-repeat:no-repeat;
     background-position:right 5px center;
@@ -5093,7 +5093,7 @@ html[dir="rtl"] .ipsFieldRow.ipsFieldRow_primary .ipsFieldRow_icon:after {
 @media screen and (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     .ipsApp .ipsField_loading {
-        background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd160a8_cf5a1e7fc191338071d07df134b620d0_tiny_loading2x.gif );
+        background-image:url(/community/uploads/set_resources_2/55c53cfd160a8_cf5a1e7fc191338071d07df134b620d0_tiny_loading2x.gif );
     }
 }
 html[dir="rtl"] .ipsApp .ipsField_loading {
@@ -6547,23 +6547,23 @@ html[dir="rtl"] .ipsDrawer_list[data-action="back"] a:before {
     }
     html[dir="ltr"] .ipsApp .ipsStepBar > .ipsStep > a,
     html[dir="ltr"] .ipsApp .ipsStepBar > .ipsStep > span {
-        background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd17633_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large2x.png );
+        background-image: url(/community/uploads/set_resources_2/55c53cfd17633_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large2x.png );
     }
     html[dir="rtl"] .ipsApp .ipsStepBar > .ipsStep > a,
     html[dir="rtl"] .ipsApp .ipsStepBar > .ipsStep > span {
-        background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd17f41_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl2x.png );
+        background-image: url(/community/uploads/set_resources_2/55c53cfd17f41_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl2x.png );
     }
     html[dir="ltr"] .ipsApp .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-        background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd18832_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra2x.png );
+        background-image: url(/community/uploads/set_resources_2/55c53cfd18832_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra2x.png );
     }
     html[dir="rtl"] .ipsApp .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-        background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd190fa_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl2x.png );
+        background-image: url(/community/uploads/set_resources_2/55c53cfd190fa_d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl2x.png );
     }
     html[dir="ltr"] .ipsApp .ipsDataItem_subList {
-        background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd199b5_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem2x.png );
+        background-image: url(/community/uploads/set_resources_2/55c53cfd199b5_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem2x.png );
     }
     html[dir="rtl"] .ipsApp .ipsDataItem_subList {
-        background-image: url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd1a268_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl2x.png );
+        background-image: url(/community/uploads/set_resources_2/55c53cfd1a268_d0e70b4cbb9ab8afb1bc1065a3f8487a_subitem_stem_rtl2x.png );
     }
 }
 .ipsRedirect {
@@ -8278,7 +8278,7 @@ html[dir="rtl"] .ipsStepBar > li {
 .ipsStepBar > .ipsStep > span {
     padding:11px 33px 11px 18px;
     background-color:#f0f0f0;
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large.png );
+    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large.png );
     background-repeat:no-repeat;
     background-position:bottom right;
     background-size:200% 200%;
@@ -8291,7 +8291,7 @@ html[dir="rtl"] .ipsStepBar > li {
 html[dir="rtl"] .ipsStepBar > .ipsStep > a,
 html[dir="rtl"] .ipsStepBar > .ipsStep > span {
     padding:11px 18px 11px 33px;
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl.png );
+    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_large_rtl.png );
     background-position:bottom left;
 }
 .ipsStepBar > .ipsStep.ipsStep_active > a,
@@ -8314,11 +8314,11 @@ html[dir="rtl"] .ipsStepBar > .ipsStep.ipsStep_active > span {
     display:inline-block;
 }
 html[dir="ltr"] .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra.png );
+    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra.png );
     left:-23px;
 }
 html[dir="rtl"] .ipsStepBar > .ipsStep + .ipsStep.ipsStep_active:after {
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl.png );
+    background-image:url(/community/uploads/set_resources_2/d0e70b4cbb9ab8afb1bc1065a3f8487a_wizard_step_extra_rtl.png );
     right:-23px;
 }
 .ipsStep_title {
@@ -10683,7 +10683,7 @@ iframe[data-embedContent] {
     0.1);
     position:relative;
     background-color:#fcfcfc;
-    background-image:url(http://pigspot.com.au/community/uploads/set_resources_2/55c53cfd1d653_cf5a1e7fc191338071d07df134b620d0_large_loading2x.gif );
+    background-image:url(/community/uploads/set_resources_2/55c53cfd1d653_cf5a1e7fc191338071d07df134b620d0_large_loading2x.gif );
     background-repeat:no-repeat;
     background-position:center center;
     background-size:40px 40px;
