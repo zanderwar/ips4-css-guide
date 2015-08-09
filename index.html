@@ -1,4 +1,4 @@
-<html>
+<html dir='ltr'>
 <head>
 	<title>IPB4.x CSS Framework Guide</title>
 	<link href='./ipb4-framework.css' type='text/css' rel='stylesheet'/>
@@ -34,5 +34,73 @@
 			<div class='header_text'>IPB4.x CSS Framework Guide</div>
 		</div>
 	</header>
+	
+	<div class='ipsLayout_container'>
+		<div class='intro ipsPad'>
+			<p>This guide exists because I got frustrated that there was none.</p>
+			<p>A lot of work is still to be completed and we urge you to contribute if you can: <a href='https://github.com/ReeceA/ipb4-css-guide'>GitHub Repo</a></p>
+		</div>
+	</div>
+	
+	<div class='ipsLayout_minimal'>
+		<div class='ipsLayout_container'>
+			
+			<h2 id='grid-framework'>Grid Framework</h2>
+			<p>IPB consists of a 12-column grid system, which is relatively easy to grasp. The spans can be swapped around in any order and where the spams sum to more than 12, the overflow will move to a new line.</p>
+			<div class='ipsMessage_warning ipsPad'><strong>Please note:</strong> For the grid to take effect you must apply <code>dir='rtl'</code> to the html tag.</div>
+			<p>An example of the grid system in action:</p>
+			
+			<div class='ipsGrid grid-example'>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+				<div class='ipsGrid_span1'>span1</div>
+			</div>
+			
+			<div class='ipsGrid grid-example'>
+				<div class='ipsGrid_span2'>span2</div>
+				<div class='ipsGrid_span2'>span2</div>
+				<div class='ipsGrid_span2'>span2</div>
+				<div class='ipsGrid_span2'>span2</div>
+				<div class='ipsGrid_span2'>span2</div>
+				<div class='ipsGrid_span2'>span2</div>
+			</div>
+			
+			<div class='ipsGrid grid-example'>
+				<div class='ipsGrid_span3'>span3</div>
+				<div class='ipsGrid_span3'>span3</div>
+				<div class='ipsGrid_span3'>span3</div>
+				<div class='ipsGrid_span3'>span3</div>
+			</div>
+			
+			<div class='ipsGrid grid-example'>
+				<div class='ipsGrid_span4'>span4</div>
+				<div class='ipsGrid_span4'>span4</div>
+				<div class='ipsGrid_span4'>span4</div>
+			</div>
+			
+			<div class='ipsGrid grid-example'>
+				<div class='ipsGrid_span4'>span4</div>
+				<div class='ipsGrid_span3'>span3</div>
+				<div class='ipsGrid_span5'>span5</div>
+			</div>
+			
+<pre class='code-pre'><strong>Code Example</strong>
+&lt;div class=&apos;ipsGrid&apos;&gt;
+&#x9;&lt;div class=&apos;ipsGrid_span4&apos;&gt;span4&lt;/div&gt;
+&#x9;&lt;div class=&apos;ipsGrid_span3&apos;&gt;span3&lt;/div&gt;
+&#x9;&lt;div class=&apos;ipsGrid_span5&apos;&gt;span5&lt;/div&gt;
+&lt;/div&gt;</pre>
+			
+		</div>
+	</div>
 	
 </body>
