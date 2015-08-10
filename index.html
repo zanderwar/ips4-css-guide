@@ -445,6 +445,171 @@
 &#x9;&lt;li class=&apos;ipsTabs_item&apos;&gt;Tab 3&lt;/li&gt;
 &#x9;&lt;li class=&apos;ipsTabs_item&apos;&gt;Tab 4&lt;/li&gt;
 &lt;/ul&gt;</pre>
+			
+			<p>&nbsp;</p>
+			<p id='forms'>&nbsp;</p>
+			<p>&nbsp;</p>
+
+			<h2>Forms</h2>
+			<div class='ipsWidget ipsWidget_vertical ipsBox'>
+				<h3 class='ipsType_reset ipsWidget_title'>Form Header</h3>
+				<form accept-charset="utf-8" method="post" class="ipsForm_horizontal ipsSpacer_top">
+					<!-- TEXT FIELD -->
+					<ul class='ipsForm'>
+						<li class="ipsFieldRow ipsPad_half ipsClearfix">
+							<div class="ipsFieldRow_title ">
+								Text Field <span class="ipsFieldRow_required">Required</span>	
+							</div>
+							<div class="ipsFieldRow_content">
+								<input type="text" name="" value=""><br>
+								<span class="ipsFieldRow_desc">
+									Optional description text.
+								</span>
+							</div>
+						</li>
+						
+						<!-- SELECT BOX -->
+						<li class="ipsFieldRow ipsPad_half ipsClearfix ">
+							<div class="ipsFieldRow_title">
+								Select Box
+								<span class="ipsFieldRow_required">Required</span>
+								
+							</div>
+							<div class="ipsFieldRow_content">
+								<select class="">
+									<option value="">Select Option 1</option>
+									<option value="">Select Option 2</option>
+									<option value="">Select Option 3</option>
+									<option value="">Select Option 4</option>
+									<option value="">Select Option 5</option>
+								</select>
+								<br>
+								<span class="ipsType_warning"></span>
+							</div>
+						</li>
+						
+						<!-- MULTIPLE SELECT BOX -->
+						<li class="ipsFieldRow ipsPad_half  ipsClearfix ">
+							<div class="ipsFieldRow_title ">
+								Multiple Select Box
+								<span class="ipsFieldRow_required">Required</span>
+							</div>
+							<div class="ipsFieldRow_content ">
+
+								<select name="" class="" multiple="">
+									<option value="">Select Option 1</option>
+									<option value="">Select Option 2</option>
+									<option value="">Select Option 3</option>
+									<option value="">Select Option 4</option>
+									<option value="">Select Option 5</option>
+								</select>
+								<br>
+								<span class="ipsType_warning"></span>
+							</div>
+						</li>
+						
+						<!-- YES/NO Checkbox -->
+						<li class="ipsFieldRow ipsPad_half ipsFieldRow_yesNo ipsClearfix">
+							<div class="ipsFieldRow_title ">
+								Yes / No
+								<span class="ipsFieldRow_required">Required</span>
+							</div>
+							<div class="ipsFieldRow_content">
+								<input type="hidden" name="toggle_value" value="0">
+								<input type="checkbox" role="checkbox" value="1" checked="" aria-checked="true" data-ipstoggle="" style="display: none;"> <span class="ipsToggle ipsToggle_on" tabindex="0"><span data-role="status">On</span></span>
+								<br>
+								<span class="ipsFieldRow_desc">
+									This "checkbox" alternative requires Javascript which we have not yet begun to document.
+								</span>
+							</div>
+						</li>
+					</ul>
+					<div class="ipsAreaBackground_light ipsClearfix ipsPad ipsType_center">
+						<button type="submit" class="ipsButton ipsButton_primary" accesskey="s" role="button">Save</button>
+					</div>
+				</form>
+			</div>
+			
+			<div class='code-header'><strong>Code Example</strong></div>
+<pre class='code-pre'>
+&lt;div class=&apos;ipsWidget ipsWidget_vertical ipsBox&apos;&gt;
+&#x9;&lt;h3 class=&apos;ipsType_reset ipsWidget_title&apos;&gt;Form Header&lt;/h3&gt;
+&#x9;&lt;form accept-charset=&quot;utf-8&quot; method=&quot;post&quot; class=&quot;ipsForm_horizontal ipsSpacer_top&quot;&gt;
+&#x9;&#x9;&lt;!-- TEXT FIELD --&gt;
+&#x9;&#x9;&lt;ul class=&apos;ipsForm&apos;&gt;
+&#x9;&#x9;&#x9;&lt;li class=&quot;ipsFieldRow ipsPad_half ipsClearfix&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_title &quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;Text Field &lt;span class=&quot;ipsFieldRow_required&quot;&gt;Required&lt;/span&gt;&#x9;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_content&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;input type=&quot;text&quot; name=&quot;&quot; value=&quot;&quot;&gt;&lt;br&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsFieldRow_desc&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Optional description text.
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&lt;/li&gt;
+&#x9;&#x9;&#x9;
+&#x9;&#x9;&#x9;&lt;!-- SELECT BOX --&gt;
+&#x9;&#x9;&#x9;&lt;li class=&quot;ipsFieldRow ipsPad_half ipsClearfix &quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_title&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;Select Box
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsFieldRow_required&quot;&gt;Required&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_content&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;select class=&quot;&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 1&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 2&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 3&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 4&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 5&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/select&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;br&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsType_warning&quot;&gt;&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&lt;/li&gt;
+&#x9;&#x9;&#x9;
+&#x9;&#x9;&#x9;&lt;!-- MULTIPLE SELECT BOX --&gt;
+&#x9;&#x9;&#x9;&lt;li class=&quot;ipsFieldRow ipsPad_half  ipsClearfix &quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_title &quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;Multiple Select Box
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsFieldRow_required&quot;&gt;Required&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_content &quot;&gt;
+
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;select name=&quot;&quot; class=&quot;&quot; multiple=&quot;&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 1&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 2&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 3&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 4&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;option value=&quot;&quot;&gt;Select Option 5&lt;/option&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/select&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;br&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsType_warning&quot;&gt;&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&lt;/li&gt;
+&#x9;&#x9;&#x9;
+&#x9;&#x9;&#x9;&lt;!-- YES/NO Checkbox --&gt;
+&#x9;&#x9;&#x9;&lt;li class=&quot;ipsFieldRow ipsPad_half ipsFieldRow_yesNo ipsClearfix&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_title &quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;Yes / No
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsFieldRow_required&quot;&gt;Required&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;div class=&quot;ipsFieldRow_content&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;input type=&quot;hidden&quot; name=&quot;toggle_value&quot; value=&quot;0&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;input type=&quot;checkbox&quot; role=&quot;checkbox&quot; value=&quot;1&quot; checked=&quot;&quot; aria-checked=&quot;true&quot; data-ipstoggle=&quot;&quot; style=&quot;display: none;&quot;&gt; &lt;span class=&quot;ipsToggle ipsToggle_on&quot; tabindex=&quot;0&quot;&gt;&lt;span data-role=&quot;status&quot;&gt;On&lt;/span&gt;&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;br&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;span class=&quot;ipsFieldRow_desc&quot;&gt;
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;This &quot;checkbox&quot; alternative requires Javascript which we have not yet begun to document.
+&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/span&gt;
+&#x9;&#x9;&#x9;&#x9;&lt;/div&gt;
+&#x9;&#x9;&#x9;&lt;/li&gt;
+&#x9;&#x9;&lt;/ul&gt;
+&#x9;&#x9;&lt;div class=&quot;ipsAreaBackground_light ipsClearfix ipsPad ipsType_center&quot;&gt;
+&#x9;&#x9;&#x9;&lt;button type=&quot;submit&quot; class=&quot;ipsButton ipsButton_primary&quot; accesskey=&quot;s&quot; role=&quot;button&quot;&gt;Save&lt;/button&gt;
+&#x9;&#x9;&lt;/div&gt;
+&#x9;&lt;/form&gt;
+&lt;/div&gt;</pre>
 
 		</div>
 	</div>
@@ -469,4 +634,143 @@
 	
 </body>
 </html>
-	
+<!--	
+<form accept-charset="utf-8" method="post" class="ipsForm_horizontal">
+
+	<ul class="ipsForm">
+						
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_username">
+			<div class="ipsFieldRow_title ">
+				Display Name
+				<span class="ipsFieldRow_required">Required</span>	
+			</div>
+			<div class="ipsFieldRow_content ">
+				<input type="text" name="username" value="" id="elInput_username" aria-required="true" maxlength="26" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=);">
+				<br>
+				<span class="ipsType_warning"></span>		
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_password">
+			<div class="ipsFieldRow_title ">
+				Password
+				<span class="ipsFieldRow_required">Required</span>
+				
+			</div>
+			<div class="ipsFieldRow_content ">
+				<input type="password" name="password" value="" id="elInput_password" aria-required="true" style="cursor: auto; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR4nGP6zwAAAgcBApocMXEAAAAASUVORK5CYII=);">
+				<br>
+				<span class="ipsType_warning"></span>
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_email_address">
+			<div class="ipsFieldRow_title ">
+				Email Address
+				<span class="ipsFieldRow_required">Required</span>
+			</div>
+			<div class="ipsFieldRow_content ">
+				<input type="email" name="email_address" value="" id="elInput_email_address" aria-required="true" maxlength="150" style="background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QsPDhss3LcOZQAAAU5JREFUOMvdkzFLA0EQhd/bO7iIYmklaCUopLAQA6KNaawt9BeIgnUwLHPJRchfEBR7CyGWgiDY2SlIQBT/gDaCoGDudiy8SLwkBiwz1c7y+GZ25i0wnFEqlSZFZKGdi8iiiOR7aU32QkR2c7ncPcljAARAkgckb8IwrGf1fg/oJ8lRAHkR2VDVmOQ8AKjqY1bMHgCGYXhFchnAg6omJGcBXEZRtNoXYK2dMsaMt1qtD9/3p40x5yS9tHICYF1Vn0mOxXH8Uq/Xb389wff9PQDbQRB0t/QNOiPZ1h4B2MoO0fxnYz8dOOcOVbWhqq8kJzzPa3RAXZIkawCenHMjJN/+GiIqlcoFgKKq3pEMAMwAuCa5VK1W3SAfbAIopum+cy5KzwXn3M5AI6XVYlVt1mq1U8/zTlS1CeC9j2+6o1wuz1lrVzpWXLDWTg3pz/0CQnd2Jos49xUAAAAASUVORK5CYII=); background-attachment: scroll; background-position: 100% 50%; background-repeat: no-repeat;">
+				<br>
+				<span class="ipsType_warning"></span>
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_group">
+			<div class="ipsFieldRow_title ">
+				Group
+				<span class="ipsFieldRow_required">Required</span>
+				
+			</div>
+			<div class="ipsFieldRow_content ">
+				<select name="group" class="" required="" aria-required="true" id="elSelect_">
+					<option value="17">Bronze Member</option>
+					<option value="20">Gold Member</option>
+					<option value="4">Management</option>
+					<option value="12">Merchandise</option>
+					<option value="3" selected="">PigSpot Member</option>
+					<option value="6">PigSpot Staff</option>
+					<option value="7">Property Owner/Supplier</option>
+					<option value="18">Silver Member</option>
+					<option value="11">Sponsors</option>
+					<option value="8">Systems Administrator</option>
+				</select>
+				<br>
+				<span class="ipsType_warning"></span>
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_secondary_groups">
+			<div class="ipsFieldRow_title ">
+				Secondary Groups
+			</div>
+			<div class="ipsFieldRow_content ">
+		
+				<input type="hidden" name="secondary_groups[]" value="__EMPTY">
+
+				<select name="secondary_groups[]" class="" multiple="" id="elSelect_">
+					<option value="17">Bronze Member</option>
+					<option value="20">Gold Member</option>
+					<option value="4">Management</option>
+					<option value="12">Merchandise</option>
+					<option value="3">PigSpot Member</option>
+					<option value="6">PigSpot Staff</option>
+					<option value="7">Property Owner/Supplier</option>
+					<option value="18">Silver Member</option>
+					<option value="11">Sponsors</option>
+					<option value="8">Systems Administrator</option>
+				</select>
+				<br>
+				<span class="ipsType_warning"></span>
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_language">
+			<div class="ipsFieldRow_title ">
+				Language
+				<span class="ipsFieldRow_required">Required</span>
+				
+			</div>
+			<div class="ipsFieldRow_content ">
+		
+				<select name="language" class="" required="" aria-required="true" id="elSelect_">
+					<option value="1" selected="">English (USA)</option>	
+				</select>
+
+				<br>
+				<span class="ipsType_warning"></span>		
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half  ipsClearfix " id="form_skin">
+			<div class="ipsFieldRow_title ">
+				Theme
+				<span class="ipsFieldRow_required">Required</span>
+				
+			</div>
+			<div class="ipsFieldRow_content ">
+				<select name="skin" class="" required="" aria-required="true" id="elSelect_">
+					<option value="0" selected="">- Automatically detect / Use default -</option>
+					<option value="2">Pig Spot (custom)</option>
+					<option value="1">Default</option>
+				</select>
+
+				<br>
+				<span class="ipsType_warning"></span>
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsPad_half ipsFieldRow_yesNo ipsClearfix " id="form_member_add_confirmemail">
+			<div class="ipsFieldRow_title ">
+				Send confirmation email
+			</div>
+			<div class="ipsFieldRow_content ">
+				<input type="hidden" name="member_add_confirmemail" value="0">
+				<input type="checkbox" role="checkbox" name="member_add_confirmemail_checkbox" value="1" id="check_member_add_confirmemail" checked="" aria-checked="true" data-ipstoggle="" style="display: none;"> 	<span class="ipsToggle ipsToggle_on" id="check_member_add_confirmemail_wrapper" tabindex="0">		<span data-role="status">On</span>	</span>
+				<br>
+				<span class="ipsFieldRow_desc">
+					Includes password.
+				</span>
+				<br>
+				<span class="ipsType_warning"></span>
+			</div>
+		</li>
+	</ul>
+		
+	<div class="ipsAreaBackground_light ipsClearfix ipsPad ipsType_center">
+		<button type="submit" class="ipsButton ipsButton_primary" accesskey="s" role="button">Save</button>
+	</div>
+</form>-->
