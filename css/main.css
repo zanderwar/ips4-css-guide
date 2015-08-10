@@ -7,13 +7,18 @@
 header {
     background: whitesmoke;
 	padding-top: 40px;
+	min-width: 1000px;
 }
 .fixed-nav {
     position: fixed;
     width: 100%;
     z-index: 99;
+	min-width: 1000px;
 }
-
+.ipsLayout_minimal,.ipsLayout_container {
+	width: 1000px;
+	margin: 0 auto;
+}
 .intro {
     text-align: center;
     font-size: 16px;
