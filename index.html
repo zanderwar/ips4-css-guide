@@ -23,40 +23,31 @@
 			<ul id='ipsLayout_mainNav' class='ipsPos_left'>
 
 				<li data-role='navItem'>
-					<a href='./'>
-						Home
-					</a>
-					
+					<a href='./'>Home</a>					
 				</li>
 				
 				<li data-role='navItem'>
-					<a href='#grid-framework'>
-						Grid Framework
-					</a>	
+					<a href='#grid-framework'>Grid Framework</a>
 				</li>
 				
 				<li data-role='navItem'>
-					<a href='#buttons'>
-						Buttons
-					</a>	
+					<a href='#buttons'>Buttons</a>
 				</li>
 				
 				<li data-role='navItem'>
-					<a href='#breadcrumb'>
-						Breadcrumb
-					</a>	
+					<a href='#breadcrumb'>Breadcrumb</a>	
 				</li>
 				
 				<li data-role='navItem'>
-					<a href='#widgets'>
-						Widgets
-					</a>	
+					<a href='#widgets'>Widgets</a>	
 				</li>
 				
 				<li data-role='navItem'>
-					<a href='#typography'>
-						Typography
-					</a>	
+					<a href='#typography'>Typography</a>	
+				</li>
+				
+				<li data-role='navItem'>
+					<a href='#tables'>Tables</a>	
 				</li>
 
 			</ul>
@@ -85,7 +76,7 @@
 	</div>
 	
 	<div class='ipsLayout_minimal'>
-		<div class='ipsLayout_container' >
+		<div class='ipsLayout_container'>
 			
 			<h2>Grid Framework</h2>
 			<p>IPB consists of a 12-column grid system, which is relatively easy to grasp. The spans can be swapped around in any order and where the spams sum to more than 12, the overflow will move to a new line.</p>
@@ -323,6 +314,111 @@
 				<span class='ipsType_positive'>.ipsType_positive</span> /
 				<span class='ipsType_neutral'>.ipsType_neutral</span>
 			</div>
+			
+			<p>&nbsp;</p>
+			<p id='tables'>&nbsp;</p>
+			<p>&nbsp;</p>
+
+			<h2>Tables</h2>
+			<h3>Standard</h3>
+			<table class='ipsTable ipsBox'>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Department</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>John Doe</td>
+						<td>Executive</th>
+						<td>Sales</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>John Doe</td>
+						<td>Executive</th>
+						<td>Sales</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>John Doe</td>
+						<td>Executive</th>
+						<td>Sales</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<div class='code-header'><strong>Code Example</strong></div>
+<pre class='code-pre'>
+&lt;table class=&apos;ipsTable ipsBox&apos;&gt;
+&#x9;&lt;thead&gt;
+&#x9;&#x9;&lt;tr&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;ID&lt;/th&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;Name&lt;/th&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;Position&lt;/th&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;Department&lt;/th&gt;
+&#x9;&#x9;&lt;/tr&gt;
+&#x9;&lt;/thead&gt;
+&#x9;
+&#x9;&lt;tbody&gt;
+&#x9;&#x9;...
+&#x9;&lt;/tbody&gt;
+&lt;/table&gt;</pre>
+
+			<h3>Matrix Themed + Zebra Stripes</h3>
+			<table class='ipsTable ipsMatrix ipsTable_zebra ipsBox'>
+				<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>Position</th>
+						<th>Department</th>
+					</tr>
+				</thead>
+				
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>John Doe</td>
+						<td>Executive</th>
+						<td>Sales</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>John Doe</td>
+						<td>Executive</th>
+						<td>Sales</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>John Doe</td>
+						<td>Executive</th>
+						<td>Sales</td>
+					</tr>
+				</tbody>
+			</table>
+			
+			<div class='code-header'><strong>Code Example</strong></div>
+<pre class='code-pre'>
+&lt;table class=&apos;ipsTable ipsMatrix ipsTable_zebra ipsBox&apos;&gt;
+&#x9;&lt;thead&gt;
+&#x9;&#x9;&lt;tr&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;ID&lt;/th&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;Name&lt;/th&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;Position&lt;/th&gt;
+&#x9;&#x9;&#x9;&lt;th&gt;Department&lt;/th&gt;
+&#x9;&#x9;&lt;/tr&gt;
+&#x9;&lt;/thead&gt;
+&#x9;
+&#x9;&lt;tbody&gt;
+&#x9;&#x9;...
+&#x9;&lt;/tbody&gt;
+&lt;/table&gt;</pre>
 
 		</div>
 	</div>
