@@ -8,7 +8,7 @@ header {
     background: whitesmoke;
 	padding-top: 40px;
 }
-nav {
+.fixed-nav {
     position: fixed;
     width: 100%;
     z-index: 99;
