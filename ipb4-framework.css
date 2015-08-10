@@ -2431,10 +2431,10 @@
      content: '\f111';
      font-family: 'FontAwesome';
  }
- @font-face{font-family:'icomoon';src:url('//community.invisionpower.com/applications/core/interface/font/icomoon.eot?-29n77j');src:url('//community.invisionpower.com/applications/core/interface/font/icomoon.eot?#iefix-29n77j') format('embedded-opentype'),
- url('//community.invisionpower.com/applications/core/interface/font/icomoon.woff?-29n77j') format('woff'),
- url('//community.invisionpower.com/applications/core/interface/font/icomoon.ttf?-29n77j') format('truetype'),
- url('//community.invisionpower.com/applications/core/interface/font/icomoon.svg?-29n77j#icomoon') format('svg');
+ @font-face{font-family:'icomoon';src:url('/font/icomoon.eot?-29n77j');src:url('/font/icomoon.eot?#iefix-29n77j') format('embedded-opentype'),
+ url('/font/icomoon.woff?-29n77j') format('woff'),
+ url('/font/icomoon.ttf?-29n77j') format('truetype'),
+ url('/font/icomoon.svg?-29n77j#icomoon') format('svg');
  font-weight:normal;
  font-style:normal;
 }
@@ -2465,11 +2465,11 @@
 .icon-spinner9:before {
     content: "\e982";
 }
-@font-face{font-family:'FontAwesome';src:url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.eot?v=4.3.0');src:url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.eot?#iefix&amp;v=4.3.0') format('embedded-opentype'),
-url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
-url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.woff?v=4.3.0') format('woff'),
-url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
-url('//community.invisionpower.com/applications/core/interface/font/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
+@font-face{font-family:'FontAwesome';src:url('./font/fontawesome-webfont.eot?v=4.3.0');src:url('./font/fontawesome-webfont.eot?#iefix&amp;v=4.3.0') format('embedded-opentype'),
+url('./font/fontawesome-webfont.woff2?v=4.3.0') format('woff2'),
+url('./font/fontawesome-webfont.woff?v=4.3.0') format('woff'),
+url('./font/fontawesome-webfont.ttf?v=4.3.0') format('truetype'),
+url('./font/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular') format('svg');
 font-weight:normal;
 font-style:normal;
 
