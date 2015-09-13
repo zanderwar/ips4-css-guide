@@ -2,21 +2,29 @@
     padding: 100px 0;
     font-size: 60px;
     text-align: center;
+	text-shadow: 1px 1px black;
 }
-
+.header_subtext {
+    font-size: 17px;
+    margin-top: 37px;
+	text-shadow: none;
+	color: #333 !important;
+}
+.header_subtext a { font-weight: bold; color: white; }
 header {
-    background: whitesmoke;
+    background: #5A83A7;
 	padding-top: 40px;
-	min-width: 1000px;
+	/*min-width: 1000px;*/
+	color: white;
 }
 .fixed-nav {
     position: fixed;
     width: 100%;
     z-index: 99;
-	min-width: 1000px;
+	/*min-width: 1000px;*/
 }
 .ipsLayout_minimal,.ipsLayout_container {
-	width: 1000px;
+	/*width: 1000px;*/
 	margin: 0 auto;
 }
 .intro {
@@ -68,4 +76,47 @@ footer {
 .blob-wrapper.data.type-html {
     max-height: 300px;
     overflow: auto;
+}
+
+/* guide menu */
+div#guideSidebar {
+	margin-top: 70px;
+}
+#guideSidebar.fixedMenu {
+	position: fixed;
+    width: inherit;
+    max-width: 307px;
+	top: 20px;
+}
+
+ul#sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#sidebar-menu li a {
+    display: block;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+ul#sidebar-menu li a:hover, ul#sidebar-menu li.active a {
+    background-color: #5E707D;
+    color: white;
+}
+span.ipsBrand {
+    display: block;
+    padding: 0 19px;
+    color: white;
+    font-weight: bold;
+}
+span.newAddition {
+    background-color: #5A83A7;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 5px;
+    float: right;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
 }

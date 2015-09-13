@@ -1,0 +1,436 @@
+<html dir='ltr'>
+<head>
+	<title>Components - IPS4.x CSS Framework Guide</title>
+	<link href='./ips4-framework.css' type='text/css' rel='stylesheet'/>
+	<link href='./css/font-awesome.min.css' type='text/css' rel='stylesheet'/>
+	<link href='./css/main.css' type='text/css' rel='stylesheet'/>
+	<script type='text/javascript' src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script type='text/javascript' src='./js/main.js'></script>
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript">stLight.options({publisher: "4d188416-61fd-4147-8030-328a9e517045", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	
+	<meta name='description' content="A comprehensive guide to the IP.Board 4.x (IPS 4.x) CSS Framework. Allow yourself to understand the framework to produce finer results in all your development needs!"/>
+	<meta name='keywords' content='ip.board, ips4, ipb4, ip.content, css, framework, guide, development, developer, components'/>
+	<meta property="og:title" content="Components - IPS4.x CSS Framework Guide"/>
+	<meta property="og:url" content="http://reecea.github.io/ips4-css-guide/components.html"/>
+	<meta property="og:description" content="Allow yourself to understand the framework to produce finer results in all your development needs!"/>
+	<link rel="canonical" href="http://reecea.github.io/ips4-css-guide/components.html"/>
+</head>
+<body class='ipsApp'>
+	<!-- BEGIN NAV -->
+	<nav class='fixed-nav ipsResponsive_showDesktop ipsHide'>
+		<div class='ipsClearfix' id='elSearchNavContainer' data-controller='core.front.core.navBar'>
+
+			<ul id='ipsLayout_mainNav' class='ipsPos_left'>
+				
+				<li><span class='ipsBrand'>IPS4.x CSS Guide</span></li>
+				<li data-role='navItem'>
+					<a href='./'>CSS</a>					
+				</li>
+				
+				<li data-role='navItem'>
+					<a href='./components.html'>Components</a>
+				</li>
+				
+
+			</ul>
+		</div>
+	</nav>
+	<!-- END NAV -->
+	
+	<header>
+		<div class='ipsLayout_container'>
+			<div class='header_text'>
+				CSS Framework Guide
+				<div class='header_subtext'>for <a href='#'>Invision Power Suite 4</a><br>by <a href='http://www.radstudios.com.au/' rel='follow'>RADStudios</a></div>
+			</div>
+			<div id='social'>
+				<span class='st_facebook_hcount' displayText='Facebook'></span>
+				<span class='st_twitter_hcount' displayText='Tweet'></span>
+				<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+				<span class='st_pinterest_hcount' displayText='Pinterest'></span>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+	</header>
+
+	<div class='ipsLayout_container'>
+		<div class='ipsGrid'>
+			<div class='ipsGrid_span9'>
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<h1>Components</h1>
+				<div id='buttons' class='ipsMessage ipsMessage_info'>A lot of work is still to be completed and we urge you to contribute if you can: <a href='https://github.com/ReeceA/ips4-css-guide'>GitHub Repo</a></div>
+				<p>&nbsp;</p>
+				<h2>Buttons</h2>
+				<div class='ipsBox ipsPad'>
+					<button type='button' class='ipsButton'>Default</button>
+					<button type='button' class='ipsButton ipsButton_important'>Important</button>
+					<button type='button' class='ipsButton ipsButton_primary'>Primary</button>
+					<button type='button' class='ipsButton ipsButton_alternate'>Alternate</button>
+					<button type='button' class='ipsButton ipsButton_positive'>Positive</button>
+					<button type='button' class='ipsButton ipsButton_intermediate'>Intermediate</button>
+					<button type='button' class='ipsButton ipsButton_negative'>Negative</button>
+					<button type='button' class='ipsButton ipsButton_verylight'>Very Light</button>
+					<button type='button' class='ipsButton ipsButton_overlaid'>Overlaid</button>
+					<button type='button' class='ipsButton ipsButton_link'>Link</button>
+				</div>
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/4955dddd3f25e86bfad7.js"></script>
+				
+				<h3>Button Sizes</h3>
+				<div class='ipsBox ipsPad'>
+					<button type='button' class='ipsButton ipsButton_veryVerySmall'>veryVerySmall</button>
+					<button type='button' class='ipsButton ipsButton_verySmall'>verySmall</button>
+					<button type='button' class='ipsButton ipsButton_small'>Small</button>
+					<button type='button' class='ipsButton ipsButton_medium'>Medium</button>
+					<button type='button' class='ipsButton ipsButton_large'>Large</button>
+					<button type='button' class='ipsButton ipsButton_veryLarge'>veryLarge</button>
+					<div class='ipsSpacer_top ipsSpacer_half'></div>
+					<button type='button' class='ipsButton ipsButton_fullWidth'>fullWidth</button>
+				</div>
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/6f90d5b8da638c1a4b9d.js"></script>
+
+				<h3>Button Groups</h3>
+				<div class='ipsBox ipsPad'>
+					<ul class='ipsButton_split'>
+						<li><button type='button' class='ipsButton'>Button</button></li>
+						<li><button type='button' class='ipsButton ipsButton_positive'>Button</button></li>
+						<li><button type='button' class='ipsButton ipsButton_intermediate'>Button</button></li>
+						<li><button type='button' class='ipsButton ipsButton_overlaid'>Button</button></li>
+						<li><button type='button' class='ipsButton ipsButton_negative'>Button</button></li>
+					</ul>
+				</div>
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/ac46897c2f6b7c1e619b.js"></script>
+			
+				<p>&nbsp;</p>
+				<p id='breadcrumb'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Breadcrumb</h2>
+				<div class="ipsSubNavigation">					
+					<nav class="ipsBreadcrumb">
+						<ul>
+							<li><a href='javascript:;'><span><i class="fa fa-home"></i> Home <i class="fa fa-angle-right"></i></span></a></li>
+							<li><a href='javascript:;'><span>Shopping Cart <i class="fa fa-angle-right"></i></span></a></li>
+							<li><span>Checkout</span></li>
+						</ul>
+					</nav>
+				</div>
+				
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/3857b23ae03415793917.js"></script>
+				
+				<p>&nbsp;</p>
+				<p id='widgets'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Widgets</h2>
+				<h3>Horizontal Widget</h3>
+				<div class='ipsWidget ipsWidget_horizontal ipsBox'>
+					<h3 class='ipsType_reset ipsWidget_title'>Widget Header</h3>
+					<div class='ipsWidget_inner ipsPad'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus, urna eget dapibus dapibus, ipsum massa pharetra lacus, at iaculis arcu est ac nisl. Quisque faucibus libero at aliquam malesuada. Donec ut orci id velit accumsan pharetra at eu eros. Fusce facilisis est aliquet, tincidunt tellus vitae, imperdiet lectus.</div>
+				</div>
+				<p>&nbsp;</p>
+				<h3>Vertical Widget</h3>
+				<div class='ipsGrid'>
+					<div class='ipsGrid_span4'>
+						<div class='ipsWidget ipsWidget_vertical ipsBox'>
+							<h3 class='ipsType_reset ipsWidget_title'>Widget Header</h3>
+							<div class='ipsWidget_inner ipsPad'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus, urna eget dapibus dapibus, ipsum massa pharetra lacus, at iaculis arcu est ac nisl. Quisque faucibus libero at aliquam malesuada. Donec ut orci id velit accumsan pharetra at eu eros. Fusce facilisis est aliquet, tincidunt tellus vitae, imperdiet lectus.</div>
+						</div>
+					</div>
+					<div class='ipsGrid_span4'>
+						<div class='ipsWidget ipsWidget_vertical ipsBox'>
+							<h3 class='ipsType_reset ipsWidget_title'>Widget Header</h3>
+							<div class='ipsWidget_inner ipsPad'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus, urna eget dapibus dapibus, ipsum massa pharetra lacus, at iaculis arcu est ac nisl. Quisque faucibus libero at aliquam malesuada. Donec ut orci id velit accumsan pharetra at eu eros. Fusce facilisis est aliquet, tincidunt tellus vitae, imperdiet lectus.</div>
+						</div>
+					</div>
+					<div class='ipsGrid_span4'>
+						<div class='ipsWidget ipsWidget_vertical ipsBox'>
+							<h3 class='ipsType_reset ipsWidget_title'>Widget Header</h3>
+							<div class='ipsWidget_inner ipsPad'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus finibus, urna eget dapibus dapibus, ipsum massa pharetra lacus, at iaculis arcu est ac nisl. Quisque faucibus libero at aliquam malesuada. Donec ut orci id velit accumsan pharetra at eu eros. Fusce facilisis est aliquet, tincidunt tellus vitae, imperdiet lectus.</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/17193e19e7e584cd8bfc.js"></script>
+				
+				<p>&nbsp;</p>
+				<p id='tables'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Tables</h2>
+				<h3>Standard</h3>
+				<table class='ipsTable ipsBox'>
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+							<th>Position</th>
+							<th>Department</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>John Doe</td>
+							<td>Executive</th>
+							<td>Sales</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>John Doe</td>
+							<td>Executive</th>
+							<td>Sales</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>John Doe</td>
+							<td>Executive</th>
+							<td>Sales</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/a471649c028a03898310.js"></script>
+
+				<h3>Matrix Themed + Zebra Stripes</h3>
+				<table class='ipsTable ipsMatrix ipsTable_zebra ipsBox'>
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Name</th>
+							<th>Position</th>
+							<th>Department</th>
+						</tr>
+					</thead>
+					
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>John Doe</td>
+							<td>Executive</th>
+							<td>Sales</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>John Doe</td>
+							<td>Executive</th>
+							<td>Sales</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>John Doe</td>
+							<td>Executive</th>
+							<td>Sales</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/641d5af44c8e39d9ee13.js"></script>
+
+				<p>&nbsp;</p>
+				<p id='tabs'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Tabs</h2>
+				<p>Not sure on the panel part just yet? if anyone can contribute please do</p>
+				<ul class='ipsTabs ipsTabs_contained ipsClearfix'>
+					<li class='ipsTabs_item ipsTabs_activeItem'>Tab 1</li>
+					<li class='ipsTabs_item'>Tab 2</li>
+					<li class='ipsTabs_item'>Tab 3</li>
+					<li class='ipsTabs_item'>Tab 4</li>
+				</ul>
+				
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/45d3c8beab17db1aa7ee.js"></script>
+				
+				<p>&nbsp;</p>
+				<p id='forms'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Forms</h2>
+				<div class='ipsWidget ipsWidget_vertical ipsBox'>
+					<h3 class='ipsType_reset ipsWidget_title'>Form Header</h3>
+					<form accept-charset="utf-8" method="post" class="ipsForm_horizontal ipsSpacer_top">
+						<!-- TEXT FIELD -->
+						<ul class='ipsForm'>
+							<li class="ipsFieldRow ipsPad_half ipsClearfix">
+								<div class="ipsFieldRow_title ">
+									Text Field <span class="ipsFieldRow_required">Required</span>	
+								</div>
+								<div class="ipsFieldRow_content">
+									<input type="text" name="" value=""><br>
+									<span class="ipsFieldRow_desc">
+										Optional description text.
+									</span>
+								</div>
+							</li>
+							
+							<!-- SELECT BOX -->
+							<li class="ipsFieldRow ipsPad_half ipsClearfix ">
+								<div class="ipsFieldRow_title">
+									Select Box
+									<span class="ipsFieldRow_required">Required</span>
+									
+								</div>
+								<div class="ipsFieldRow_content">
+									<select class="">
+										<option value="">Select Option 1</option>
+										<option value="">Select Option 2</option>
+										<option value="">Select Option 3</option>
+										<option value="">Select Option 4</option>
+										<option value="">Select Option 5</option>
+									</select>
+									<br>
+									<span class="ipsType_warning"></span>
+								</div>
+							</li>
+							
+							<!-- MULTIPLE SELECT BOX -->
+							<li class="ipsFieldRow ipsPad_half  ipsClearfix ">
+								<div class="ipsFieldRow_title ">
+									Multiple Select Box
+									<span class="ipsFieldRow_required">Required</span>
+								</div>
+								<div class="ipsFieldRow_content ">
+
+									<select name="" class="" multiple="">
+										<option value="">Select Option 1</option>
+										<option value="">Select Option 2</option>
+										<option value="">Select Option 3</option>
+										<option value="">Select Option 4</option>
+										<option value="">Select Option 5</option>
+									</select>
+									<br>
+									<span class="ipsType_warning"></span>
+								</div>
+							</li>
+							
+							<!-- YES/NO Checkbox -->
+							<li class="ipsFieldRow ipsPad_half ipsFieldRow_yesNo ipsClearfix">
+								<div class="ipsFieldRow_title ">
+									Yes / No
+									<span class="ipsFieldRow_required">Required</span>
+								</div>
+								<div class="ipsFieldRow_content">
+									<input type="hidden" name="toggle_value" value="0">
+									<input type="checkbox" role="checkbox" value="1" checked="" aria-checked="true" data-ipstoggle="" style="display: none;"> <span class="ipsToggle ipsToggle_on" tabindex="0"><span data-role="status">On</span></span>
+									<br>
+									<span class="ipsFieldRow_desc">
+										This "checkbox" alternative requires Javascript which we have not yet begun to document.
+									</span>
+								</div>
+							</li>
+						</ul>
+						<div class="ipsAreaBackground_light ipsClearfix ipsPad ipsType_center">
+							<button type="button" class="ipsButton ipsButton_primary" accesskey="s" role="button">Save</button>
+						</div>
+					</form>
+				</div>
+				
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/70d771b5bb0a7b39152a.js"></script>
+				
+				
+				<p>&nbsp;</p>
+				<p id='tags-badges'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Tags &amp; Badges</h2>
+				<h3>Tags</h3>
+				<div class='ipsBox ipsPad'>
+					<span class='ipsTag_prefix'>I am a tag</span>
+					<div class='ipsTag_prefix'><span>I am another tag</span></div>
+					<div class='ipsTag_prefix'><span>I am the tag everybody speaks of!</span></div>
+				</div>
+				<h3>Badges</h3>
+				<div class='ipsBox ipsPad'>
+					<span class='ipsBadge ipsBadge_warning ipsBadge_large'>WARNING BADGE</span>
+					<span class='ipsBadge ipsBadge_positive ipsBadge_large'>POSITIVE BADGE</span>
+					<span class='ipsBadge ipsBadge_negative ipsBadge_large'>NEGATIVE BADGE</span>
+					<span class='ipsBadge ipsBadge_neutral ipsBadge_large'>NEUTRAL BADGE</span>
+					<span class='ipsBadge ipsBadge_intermediary ipsBadge_large'>INTERMEDIARY BADGE</span>
+					
+					<div class='ipsSpacer_top'></div>
+					<span class='ipsBadge ipsBadge_positive ipsBadge_large ipsBadge_icon ipsAnim ipsAnim_jiggle'>i</span>
+					<span class='ipsBadge ipsBadge_negative ipsBadge_large ipsBadge_icon'>c</span>
+					<span class='ipsBadge ipsBadge_neutral ipsBadge_large ipsBadge_icon'>o</span>
+					<span class='ipsBadge ipsBadge_intermediary ipsBadge_large ipsBadge_icon'>n</span>
+				</div>
+				
+				<h3>Badge Sizes</h3>
+				<div class='ipsBox ipsPad'>
+					<span class='ipsBadge ipsBadge_neutral ipsBadge_normal'>.ipsBadge_normal</span>
+					<span class='ipsBadge ipsBadge_positive ipsBadge_medium'>.ipsBadge_medium</span>
+					<span class='ipsBadge ipsBadge_negative ipsBadge_large'>.ipsBadge_large</span>
+				</div>
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/9c9284a2a5e2a9cc0dfb.js"></script>
+				
+				<p>&nbsp;</p>
+				<p id='message-alerts'>&nbsp;</p>
+				<p>&nbsp;</p>
+
+				<h2>Message Alerts</h2>
+				<div class='ipsBox ipsPad'>
+					<div class='ipsMessage ipsMessage_info'><strong>Information:</strong> Look behind you!</div>
+					<div class='ipsMessage ipsMessage_error'><strong>Danger:</strong> Seriously..... Look behind you!</div>
+					<div class='ipsMessage ipsMessage_warning'><strong>Warning:</strong> Is that a robot?!? Be careful it bites!</div>
+					<div class='ipsMessage ipsMessage_success'><strong>Success:</strong> Wow where did you get that rocket launcher! *BOOM*</div>
+					<div class='ipsMessage ipsMessage_general'><strong>General:</strong> Yay it has powered down. Thank god no one got hurt!</div>
+				</div>
+				<div class='ipsSpacer_top'></div>
+				<script src="https://gist.github.com/ReeceA/d86ee43f561c460d17f8.js"></script>
+			</div>
+			<div class='ipsGrid_span3'>
+				<div class='ipsWidget ipsWidget_vertical ipsBox' id='guideSidebar'>
+					<h3 class='ipsType_reset ipsWidget_title'>Navigation</h3> 
+					<div class='ipsWidget_inner'>
+						<ul id='sidebar-menu'>
+							<li class='active'><a href='#buttons'>Buttons</a></li>
+							<li><a href='#breadcrumb'>Breadcrumb</a></li>
+							<li><a href='#widgets'>Widgets</a></li>
+							<li><a href='#tables'>Tables</a></li>
+							<li><a href='#tabs'>Tabs</a></li>
+							<li><a href='#forms'>Forms</a></li>
+							<li><a href='#tags-badges'>Tags &amp; Badges</a></li>
+							<li><a href='#message-alerts'>Message Alerts <span class='newAddition'>NEW</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<footer>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<div class='ipsFooter'>
+			No copyright infringement intended.<br/>
+			This guide is not provided, monitored or maintained by Invision Power Staff and is in no way associated with Invision Power.
+		</div>
+	</footer>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-66148002-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	
+</body>
+</html>
